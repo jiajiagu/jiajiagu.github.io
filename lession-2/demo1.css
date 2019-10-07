@@ -1,0 +1,93 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+div {
+    border: 10px solid blue;
+} */
+/* span {
+    
+}
+div span {
+
+} */
+/* 
+div {
+    border: 2px solid blue !important;
+} */
+
+div {
+    border: 2px solid blue;
+}
+
+.box1 {
+    border: 2px solid red;
+}
+
+.box1, .box2, .box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box2 {
+    border: 1px solid red;
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box1 .child1 {
+    background-color: green;
+}
+
+.box2 .child1 {
+    background-color: black;
+}
+
+.box1:hover {
+    background-color:gray;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+.box3::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box3::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
