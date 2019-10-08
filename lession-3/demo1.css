@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: PingFang SC,Helvetica Neue,Helvetica,STHeitiSC-Light,Arial,sans-serif;
+    font-size: 16px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid blue;
+    margin: 10px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid blue;
+    margin: 20px;
+}
+
+.box2 {
+    color: red;
+    width: 300px;
+}
+
+.text {
+    font-family: PingFang SC,Helvetica Neue,Helvetica,STHeitiSC-Light,Arial,sans-serif;
+}
+
+.text1 {
+    font-size: 14px;
+}
+
+.text2 {
+    /* color: rgb(255, 0, 255); */
+    /* color: rgba(255, 0, 255, .5); */
+    /* color: #000000; */
+    color: #111111;
+}
+
+.text3 {
+    font-weight: 100;
+}
+
+.text4 {
+    text-decoration: underline;
+}
+
+.text5 {
+    text-indent: 2em;
+}
+
+.text6 {
+    line-height: 30px;
+}
+
+.text7 {
+    letter-spacing: 40px;
+    /* word-spacing: 40px; */
+}
+
+.text8 {
+    text-align: right;
+}
